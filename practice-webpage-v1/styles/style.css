@@ -1,0 +1,138 @@
+﻿/* Anthony Doan, 10/29/2016 */
+
+/* Style for the html element */
+html {
+	background-color: grey;
+}
+
+/* Style for the body element */
+body { 
+	color:yellow; /*set text color to crimson*/
+    text-align: center;
+	margin: 0;
+}
+
+/* Style for the outer-wrapper id */
+#outer-wrapper {	
+	width: 90%; /*set width of id="outer-wrapper" to 90%*/
+	margin: 0 auto 0 auto; /*center content within id="outer-wrapper"*/
+}
+
+header, nav, #content, footer {
+    
+}
+
+/* Style for the content id */
+#content {
+	text-align:center;
+}
+
+/* Style for the table, th and td element */
+table, th, td {
+    border: 1px solid red;
+    width:100%;
+}
+
+/* Style for the th and td element */
+th, td {
+    padding: 2%;
+    text-align: left;
+}
+
+/* Style for the text1 id */
+#text1 {
+	font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+	
+	font-size:larger;
+	color:orange;
+}
+
+/* Style for the text2 id */
+#text2 {
+	font-family:Arial, Helvetica, sans-serif;
+	
+	font-size:xx-large;
+	color:aqua;
+}
+
+/* Style for the text3 id */
+#text3 {
+	font-family:Georgia, "Times New Roman", Times, serif;
+	
+	font-size:x-large;
+	color:fuchsia;
+}
+
+/* Style for the header element */
+header {
+	padding: 0 2% 2% 0; /*top right bottom left padding in order*/
+
+}
+
+/* Style for the h3 element */
+h3 {
+	color: black;
+}
+
+/* Style for the footer element */
+footer { 
+	text-align: center; /*center the text in the footer*/
+	margin-top: 2%;
+}
+
+/* Style for the li element */
+li {
+	list-style-type:none; /*no list style type*/
+    display:inline; /*display inline*/
+}
+
+/* Style for the a element */
+a {
+	color: white;
+}
+
+/* Style for the when hovering over a element */
+a:hover {
+    background-color: pink; /*set background color to pink when hovered over*/
+}
+
+/* Style for the p element */
+p {
+	height: 70px;
+	overflow: auto;
+	border: 1px solid black;
+    box-shadow: 10px 10px 5px black;
+}
+
+/* Style for the button element */
+button {
+	margin: 10px 6px;
+}
+
+/* Style for the when hovering over td element */
+td:hover {
+	text-align: right;
+	background: url("../backgrounds/bg1.jpg") no-repeat center center fixed;
+}
+
+/* Style for highlighting stuff */
+::selection {
+    color: red;
+    background: blue;
+}
+
+/* Style for banner id */
+#banner {
+	height: 300px;
+	width: 100%;
+	object-fit: cover;
+}
+
+/* Style for topblock id */
+#topblock {
+	background: url("../backgrounds/bg.jpg") no-repeat center center fixed; 
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}

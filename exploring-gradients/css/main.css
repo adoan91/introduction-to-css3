@@ -1,0 +1,88 @@
+/* Style sheet created by: Anthony Doan, 11/12/2016 */
+
+/* Style for body specifies a background color */
+body {
+	background-color: #B8B894;
+}
+
+/* Style for the container centers the page and specifies the width */
+#container {
+	width: 90%;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+/* Style for the header specifies top margin and center aligns content */
+header {
+	margin-top: 0.2em;
+	text-align: center;
+}
+
+/* Style for the gradient1 id */
+#gradient1 {
+	border: solid #000000;
+	height: 5em;
+	margin-bottom: 2em;
+	background: -moz-linear-gradient(to right, #000066, #99FF99 25%);
+	background: -o-linear-gradient(to right, #000066, #99FF99 25%);
+	background: -webkit-linear-gradient(to right, #000066, #99FF99 25%);
+	background: linear-gradient(to right, #000066, #99FF99 25%);
+	/* List the standard syntax last */
+}
+
+/* Style for the gradient2 id */
+#gradient2 {
+	border: solid #000000;
+	height: 5em;
+	margin-bottom: 2em;
+	background: linear-gradient(to left, #000066, #99FF99 10%);
+	background: -webkit-linear-gradient(to left, #000066, #99FF99 10%); /* Chrome, Safari, newer versions of Opera */
+	background: -moz-linear-gradient(to left, #000066, #99FF99 10%); /* Firefox */
+	background: -o-linear-gradient(to left, #000066, #99FF99 10%); /* Old versions of Opera */
+	background: -ms-linear-gradient(to left, #000066, #99FF99 10%); /* Internet Explorer */
+}
+
+/* Style for the gradient3 id */
+#gradient3 {
+	border: solid #000000;
+	height: 5em;
+	margin-bottom: 2em;
+	background: -moz-linear-gradient(#006699, #00CC00, #FF0000); /* Firefox */
+	background: -o-linear-gradient(#006699, #00CC00, #FF0000); /* Old versions of Opera */
+	background: -webkit-linear-gradient(#006699, #00CC00, #FF0000); /* Chrome, Safari, newer versions of Opera */
+	background: radial-gradient(#006699, #00CC00, #FF0000);
+	/* List the standard syntax last */
+}
+
+/* Style for the gradient4 id */
+#gradient4 {
+	border: solid #000000;
+	height: 5em;
+	margin-bottom: 2em;
+	background: repeating-radial-gradient(#006699, #00CC00 10%, #FF0000 15%);
+	background: -webkit-repeating-radial-gradient(#006699, #00CC00 10%, #FF0000 15%); /* Chrome, Safari, newer versions of Opera */
+	background: -moz-repeating-radial-gradient(#006699, #00CC00 10%, #FF0000 15%); /* Firefox */
+	background: -o-repeating-radial-gradient(#006699, #00CC00 10%, #FF0000 15%); /* Old versions of Opera */
+	background: -ms-repeating-radial-gradient(#006699, #00CC00 10%, #FF0000 15%); /* Internet Explorer */
+	/* List the standard syntax last */
+}
+
+/* Style for the gradient5 id */
+#gradient5 {
+	border: solid #000000;
+	height: 5em;
+	margin-bottom: 2em;
+	background: linear-gradient(to top left, #FFFF00, #FF6600, #006699, #3333FF);
+	background: -webkit-linear-gradient(to top left, #FFFF00, #FF6600, #006699, #3333FF); /* Chrome, Safari, newer versions of Opera */
+	background: -moz-linear-gradient(to top left, #FFFF00, #FF6600, #006699, #3333FF); /* Firefox */
+	background: -o-linear-gradient(to top left, #FFFF00, #FF6600, #006699, #3333FF); /* Old versions of Opera */
+	background: -ms-linear-gradient(to top left, #FFFF00, #FF6600, #006699, #3333FF); /* Internet Explorer */
+	/* List the standard syntax last */
+}
+
+/* Style for the footer specifies font size, text alignment, and top margin */
+footer {
+	font-size: .70em;
+	text-align: center;
+	margin-top: 2em;
+}

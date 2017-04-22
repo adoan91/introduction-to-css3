@@ -1,0 +1,51 @@
+/* Style sheet created by: Anthony Doan, 11/16/2016 */
+
+/* Style for body specifies a background color */
+body {
+	background-color: #D4BECF;
+}
+
+/* Style for the container element */
+#container {
+	width: 90%;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+/* Style for the footer element */
+footer {
+	font-size: .70em;
+	text-align: center;
+}
+
+/* Style for the label and input element */
+input, label {
+	display: block;
+}
+
+/* Style for the input element */
+input {
+	margin-bottom: 1em;
+}
+
+/* Media query for tablet layout */ 
+
+@media only screen and (min-width: 481px) {
+	/* Style for the label element */
+	label {
+		float: left;
+		padding-right: 0.5em;
+		text-align: right;
+		width: 7em;
+	}
+	
+	/* Style for the input element */
+	input {
+		margin-bottom: 1em;
+	}
+	
+	/* Style for the btn class */
+	.btn {
+		margin-left: 12em;
+	}
+}

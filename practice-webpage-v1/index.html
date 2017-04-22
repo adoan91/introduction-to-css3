@@ -1,0 +1,97 @@
+﻿<!DOCTYPE html>
+<!--  Anthony Doan
+      11/5/2016 -->
+<html lang="en">
+<head>
+		<!-- author description keywords -->
+		<meta charset="utf-8">
+		<title>Project 1</title>
+		<link rel="stylesheet" href="styles/style.css">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+<body>
+	<div id="outer-wrapper">
+		<div id="topblock">
+			<header id="top">
+				
+				<h1>Homepage</h1>
+				<img id="banner" alt="banner-logo" src="images/bannerlogo.jpg">
+				
+			</header>
+			<nav>
+				<ul>
+					<li><a href="index.html"><button>Homepage</button></a> | </li>
+					<li><a href="about.html"><button>About</button></a> | </li>
+					<li><a href="contactus.html"><button>Contact Us</button></a> | </li>
+					<li>
+						<a href="http://www.w3schools.com">
+							<img border="0" alt="W3Schools" src="images/image_button.jpg" width="20" height="20">
+						</a> | 
+					</li>
+					<li><button onclick="window.open('contactus.html');">Don't Click Me</button></li>
+				</ul>
+			</nav>
+		</div>
+		<div id="content">
+		
+			<h2>Random Stuff</h2>
+		
+			<div style="text-align:center">
+				<video width="320" height="240" controls>
+				  <source src="videos/movie.mp4" type="video/mp4">
+				  Your browser does not support the video tag.
+				</video>
+				<video width="320" height="240" controls>
+				  <source src="videos/c.mp4" type="video/mp4">
+				  Your browser does not support the video tag.
+				</video>
+			</div>
+				
+			<table>
+				<caption><h2>CS ELearning Resources</h2></caption>
+				<tr>
+					<td><a href="https://www.hackerrank.com/">HackerRank</a></td>
+					<td><a href="https://www.udacity.com/?_ga=1.118814603.323036345.1479578906">Udacity</a></td>
+				</tr>
+				<tr>
+					<td><a href="http://jsbooks.revolunet.com/">Free JavaScript Ebooks</a></td>
+					<td><a href="http://www.w3schools.com/">W3Schools</a></td>
+				</tr>
+				<tr>
+					<td><a href="https://developer.mozilla.org/en-US/">MDN</a></td>
+					<td>
+					<audio controls>
+					  <source src="videos/b.mp3" type="audio/mpeg">
+					Your browser does not support the audio element.
+					</audio>
+					</td>
+				</tr>
+				<tr>
+					<td><a href="https://codefights.com/">CodeFights</a></td>
+					<td>
+					<audio controls>
+					  <source src="videos/a.mp3" type="audio/mpeg">
+					Your browser does not support the audio element.
+					</audio>
+					</td>
+				</tr>
+			</table>
+			
+			<h3>About Privatization</h3>
+				<p id="text1"><em>Privatization is a powerful and frequently used technique for parallelizing applications</em></p>
+			<h3>The operation needs to be associative and commutative</h3>
+				<p>Privatization can sometimes reduce the performance loss due to serialization caused by atomic operations.</p>
+			<h3>Fits into shared memory</h3>
+				<p id="text2"><i>The private histogram size needs to be small</i></p>
+			<h3>What if the histogram is too large to privatize?</h3>
+				<p>Sometimes one can partially privatize an output histogram and use range testing to go to either global memory or shared memory</p>
+			<h3>Atomic operations may be needed</h3>
+				<p id="text3">sacrificing some performance for correctness</p>
+			
+		</div> <!--end content-->
+		<footer>
+			Footer, <a href="#top"><button>BACK TO TOP</button></a>
+		</footer>
+	</div> <!--end outer-wrapper-->
+</body>
+</html>

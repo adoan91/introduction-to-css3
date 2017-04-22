@@ -1,0 +1,94 @@
+﻿/* Anthony Doan, 10/29/2016 */
+
+body { 
+	color: #FFFFFF; /*set text color to white*/
+	background-color: #C9E4FF; /*set background color to light blue*/
+	font-family: Calibri, sans-serif; /*set font to Calibri, or the
+	generic sans-serif font*/
+}
+	 
+#outer-wrapper {	
+	width: 90%; /*set width of id="outer-wrapper" to 90%*/
+	margin: 0 auto 0 auto; /*center content within id="outer-wrapper"*/
+}
+
+header, nav, #content, footer {
+	background-color: #4CA6FF; /*set background color to bright blue*/
+}
+
+nav, #content, footer { 
+	padding: 10px; /*add 10px of padding on all four sides of the
+	wireframe containers*/
+}
+
+header {
+
+	padding: 0 2% 2% 0; /*top right bottom left padding in order*/
+
+}
+
+
+
+h1, h2, h3 {
+
+	font-family: Verdana, sans-serif; /*set Verdana font, if not available, set sans-serif*/
+
+	padding-top: 1%; /*set top padding 1%*/
+
+}
+
+h3 {
+	color: fuchsia; /*color h3's fuchsia*/
+}
+
+h3:hover {
+	float:right; /*when you hover over a h3 it will float to the right*/
+}
+
+nav {
+
+	background-color: #C9E4FF; /*set background color to light blue*/
+
+}
+
+
+
+footer { 
+
+	font-size: 0.75em; /*reduce the font size in the footer*/
+
+	text-align: center; /*center the text in the footer*/
+
+}
+
+	
+
+img { 
+	float: left; /*float the image to the left*/
+}
+
+.rightmargin { 
+	margin-right: 2%; /*add 2% right margin to class="rightmargin"*/
+}
+
+li {
+
+	list-style-type:none; /*no list style type*/
+
+    display:inline; /*display inline*/
+
+}
+
+
+
+a:hover {
+
+    background-color: pink; /*set background color to pink when hovered over*/
+
+}
+
+.clearfloat {
+
+	clear: both; /*remove both floats*/
+
+}

@@ -1,0 +1,105 @@
+﻿<!DOCTYPE html>
+<!--  Anthony Doan
+      12/9/2016 -->
+<html lang="en">
+<head>
+		<!-- author description keywords -->
+		<meta charset="utf-8">
+		<title>Project Part 2</title>
+		<link rel="stylesheet" href="styles/style.css">
+		<link rel="stylesheet" href="styles/style2.css">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+<body>
+	<div id="outer-wrapper">
+		<div id="topblock">
+			<header id="top">
+				
+				<h1>Tessellation</h1>
+				<img id="banner" alt="banner-logo" src="images/bannerlogo.jpg">
+				
+			</header>
+			<nav>
+				<ul>
+					<li><a href="index.html"><button>Homepage</button></a> | </li>
+					<li><a href="about.html"><button>About</button></a> | </li>
+					<li><a href="contactus.html"><button>Contact Us</button></a> | </li>
+					<li>
+						<a href="geometryshader.html">
+							<img border="0" alt="W3Schools" src="images/image_button.jpg" width="20" height="20">
+						</a> | 
+					</li>
+					<li><button onclick="window.open('tessellation.html');">Tessellation</button></li>
+				</ul>
+			</nav>
+		</div>
+		<div id="content">
+		
+			<h2>Tessellation</h2>
+		
+			<div id="content1">
+				<div style="text-align: left;">
+					<h1>Tessellation</h1>
+				</div>
+				<div style="text-align: right;">
+					<h1>Tessellation</h1>
+				</div>
+			</div>	
+			
+			
+			<h3>Tessellation Shaders (OpenGL 4+)</h3>
+				<p id="text1"><em>3 components: Tessellation Control Shader, Tessellator, Tessellation Evaluation Shader.</em></p>
+			<h3>Tessellation Control Shader</h3>
+				<p>Sends control points to Tessellation Evaluation Shader. Sends tessellation levels to Tessellator.</p>
+			<h3>Tessellation Evaluation Shader</h3>
+				<p id="text2"><i>Applies control points to grid. Sends out resulting vertices. Does some configuration of the tessellator.</i></p>
+			<h3>Tessellator</h3>
+				<p>Recursively generates grid of triangles. Sends grid to Tessellation Evaluation Shader. Not programmable ("fixed function")</p>
+			<h3>Additional Uses of Tessellation</h3>
+				<p id="text3">Level of Detail (LOD)</p>
+				
+			<div class="desktop">
+				<table>
+					<caption><h2>CS ELearning Resources</h2></caption>
+					<tr>
+						<td><a href="https://www.hackerrank.com/">HackerRank</a></td>
+						<td><a href="https://www.udacity.com/?_ga=1.118814603.323036345.1479578906">Udacity</a></td>
+					</tr>
+					<tr>
+						<td><a href="http://jsbooks.revolunet.com/">Free JavaScript Ebooks</a></td>
+						<td><a href="http://www.w3schools.com/">W3Schools</a></td>
+					</tr>
+					<tr>
+						<td><a href="https://developer.mozilla.org/en-US/">MDN</a></td>
+						<td>
+						<audio controls>
+						  <source src="videos/b.mp3" type="audio/mpeg">
+						Your browser does not support the audio element.
+						</audio>
+						<div>
+							Download this audio: <a href="videos/b.mp3" download>mp3</a>
+						</div>
+						</td>
+					</tr>
+					<tr>
+						<td><a href="https://codefights.com/">CodeFights</a></td>
+						<td>
+						<audio controls>
+						  <source src="videos/a.mp3" type="audio/mpeg">
+						Your browser does not support the audio element.
+						</audio>
+						<div>
+							Download this audio: <a href="videos/a.mp3" download>mp3</a>
+						</div>
+						</td>
+					</tr>
+				</table>
+			</div>
+			
+		</div> <!--end content-->
+		<footer>
+			Footer, <a href="#top"><button>BACK TO TOP</button></a>
+		</footer>
+	</div> <!--end outer-wrapper-->
+</body>
+</html>

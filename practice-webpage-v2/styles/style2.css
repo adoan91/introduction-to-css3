@@ -1,0 +1,24 @@
+﻿/* Anthony Doan, 10/29/2016 */
+
+/* Styles for tablet viewport */
+@media only screen and (min-width: 720px) {
+	/* Style hides the mobile class */
+	/*.mobile {
+		display: none;
+	}*/
+
+	/* Style displays the desktop class */
+	.desktop {
+		display: inline;
+	}
+}
+
+/* Styles for desktop viewport */
+@media only screen and (min-width: 950px) {
+	
+	.desktop {
+		display: inline;
+	}
+	
+	
+}

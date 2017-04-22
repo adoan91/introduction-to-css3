@@ -1,0 +1,85 @@
+﻿<!DOCTYPE html>
+<!--  Anthony Doan
+      12/9/2016 -->
+<html lang="en">
+<head>
+		<!-- author description keywords -->
+		<meta charset="utf-8">
+		<title>Project Part 2</title>
+		<link rel="stylesheet" href="styles/style.css">
+		<link rel="stylesheet" href="styles/style2.css">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+<body>
+	<div id="outer-wrapper">
+		<div id="topblock">
+			<header id="top">
+				
+				<h1>Homepage</h1>
+				<img id="banner" alt="banner-logo" src="images/bannerlogo.jpg">
+				
+			</header>
+			<nav>
+				<ul>
+					<li><a href="index.html"><button>Homepage</button></a> | </li>
+					<li><a href="about.html"><button>About</button></a> | </li>
+					<li><a href="contactus.html"><button>Contact Us</button></a> | </li>
+					<li>
+						<a href="geometryshader.html">
+							<img border="0" alt="W3Schools" src="images/image_button.jpg" width="20" height="20">
+						</a> | 
+					</li>
+					<li><button onclick="window.open('tessellation.html');">Tessellation</button></li>
+				</ul>
+			</nav>
+		</div>
+		<div id="content">
+			<div id="content3" class="desktop mobile">
+				<div>For more information about our services, please complete the form below.</div>
+		
+				<form>
+					<label for="fName">First Name:</label>
+					<input type="text" name="fName" id="fName">
+					
+					<label for="lName">Last Name:</label>
+					<input type="text" name="lName" id="lName">
+					
+					<label for="email">Email Address:</label>
+					<input type="email" name="email" id="email">
+					
+					<label for="phone">Phone Number:</label>
+					<input type="tel" name="phone" id="phone">
+					
+					<label for="reference">Referral Source:</label>
+					<select name="reference" id="reference">
+						<option value="ad">Coupon</option>
+						<option value="friend">Friend</option>
+						<option value="google">Google</option>
+						<option value="social">Social Media</option>
+						<option value="other">Other</option>
+					</select>
+					
+					<label for="questions">Questions:</label>
+					<textarea id="questions" name="questions" rows="3" cols="25"></textarea>
+					
+					<input type="submit" value="Submit">
+					<input type="reset" value="Reset">
+				</form>
+			
+				<div>Our office number is (555)555-2564 and our email address is steve@screen.net</div>
+			</div>
+			
+			<h3>Privatization algorithm</h3>
+				<p id="text1"><em>The first algorithm uses private copies of bin counters for each thread block (Figure 1 and Listing 2). Before the kernel is launched the input collection is copied from the host to the device’s global memory along with information about bins (bin widths and global bin counters). Threads within a block will have their own copy of bin counters which are stored in shared memory.</em></p>
+				<p>After initializing each counter to zero, threads read input elements based on their global ID in grid. The stride between the elements that are read by a single thread is the product of the number of threads and number of blocks that are launched in kernel. For each element appropriate bin is found using binary search and the corresponding counter is atomically incremented.</p>
+				<p id="text2"><i>At the end, global bin counters are atomically updated from each thread block. There are several observations that should be made about this algorithm.</i></p>
+				<p>First one is the obvious limitation on the maximum number of bins that this algorithm supports. With the latest CUDA GPU devices, the size of shared memory is 48 KB per block, and when unsigned integers are used as bin counters this leads to a maximum of around 10K bins in the private copy.</p>
+				<p id="text3">This number of bins will satisfy most of the today’s applications [8] [9]. Still, when the higher number of bins is required, there are several modifications that could be applied [6] [7]. For example, instead of using unsigned integers we could use unsigned chars or other data structure with smaller number of bits per bin counter in the private copy</p>
+			
+		</div> <!--end content-->
+		<footer>
+			Footer, <a href="#top"><button>BACK TO TOP</button></a>
+		</footer>
+	</div> <!--end outer-wrapper-->
+</body>
+</html>

@@ -1,0 +1,42 @@
+/* Style sheet created by: Anthony Doan, 12/9/2016 */
+
+/* Style for body specifies a background color */
+body {
+	background-color: pink;
+}
+
+/* Style for the container element */
+#container {
+	width: 90%;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+/* Style for the header element */
+header {
+	font-family: Verdana, Arial, sans-serif;
+	margin-top: 0.2em;
+	padding: 0.5%;
+	background: purple;
+	text-align: center;
+	color: white;
+}
+
+/* Style for the main element  */
+main {
+	display: block;
+	padding: 1em;
+	background: #FFFFFF;
+	box-shadow: 5px 5px 1px 1px #B45EAB;
+}
+
+/* Style for the footer element */
+footer {
+	font-size: .70em;
+	text-align: center;
+}
+
+/* Style for li element */
+li {
+	color: #3C59BC;
+}
